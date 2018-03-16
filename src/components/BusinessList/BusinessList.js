@@ -9,7 +9,7 @@ class BusinessList extends React.Component{
         {
           this.props.businesses.map(business => {
           return <Business business={business}/>;
-          })
+        }) //map through the array of businesses and return Business component for each businesss
         }
       </div>
     );

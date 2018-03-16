@@ -28,7 +28,7 @@ class App extends Component {
       <div className='App'>
         <h1>Ravenous </h1>
         <SearchBar/>
-        <BusinessList businesses={businesses}/>
+        <BusinessList businesses={businesses}/> //businesses is passed as property
 
       </div>
     );
